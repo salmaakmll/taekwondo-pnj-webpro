@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: normal;
+    scrollbar-color: var(--color-primary);
+}
+
+html::-webkit-scrollbar{
+    width: 0.2rem;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: navy;
+    border-radius: 0.5rem;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: var(--color-bg-variant);
+}
+
+.swiper {
+  margin-top: 3%;
+  width: 1600px;
+  height: 600px;
+  animation-duration: 5s;
+}
+/* @media (min-width: 640px) {
+  .swiper {
+  width: 800px;
+  height: 50px;
+  } 
+} */
+.home {
+  background-image: url('http://localhost:3000/images/bg7.png');
+}
+
+/* .gallery_image{
+  width: 1600px;
+  height: 600px;  
+  object-fit: cover;
+}  */
